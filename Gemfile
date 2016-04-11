@@ -48,6 +48,7 @@ group :development do
 end
 
 group :production do
+  # These are only installed in production environment
   gem 'pg'
   gem 'rails_12factor'
 end
